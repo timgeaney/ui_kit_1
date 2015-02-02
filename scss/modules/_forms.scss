@@ -1,0 +1,97 @@
+
+form {
+	.field-group {
+		margin-bottom: $baseline;
+
+		label {
+			display: block;
+			margin-bottom: 0.5em;
+
+			font-weight: bold;
+		}
+
+		input:not([class^="btn"]),
+		textarea {
+			border: 1px solid $field-border-color;
+
+			padding: 0.75em;
+
+			&:focus,
+			&:hover {
+				border-color: darken($field-border-color, 15%);
+				outline: none;
+			}
+
+			&.field-fw {
+				width: 100%;
+			}
+		}
+
+		.help {
+			@extend small;
+
+			margin: 0.5em 0 0;
+
+			color: $muted-text-color;
+			font-style: italic;
+		}
+
+		&.field-error {
+			label,
+			.help,
+			input {
+				color: $field-error-color;
+				border-color: lighten($field-error-color, 40%);
+			}
+		}
+	}
+
+	.required {
+		color: $field-required-color;
+	}
+
+	fieldset {
+		border-color: $field-border-color;
+
+		padding: 1.5em;
+		margin-bottom: $baseline;
+
+		legend {
+			font-weight: bold;
+			font-size: 1.5em;
+
+			padding: 0 0.5em;
+		}
+
+	}
+
+	input[type="checkbox"] + label {
+		display: inline-block;
+	}
+
+	input[type="radio"] + label {
+		display: inline-block;
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
