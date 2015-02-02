@@ -720,3 +720,30 @@ form input[type="checkbox"] + label {
   display: inline-block; }
 form input[type="radio"] + label {
   display: inline-block; }
+
+[class^="icon-"] {
+  border: 1px solid lightgrey;
+  height: 3em;
+  padding: 0.25em;
+  margin-bottom: 1.5em;
+  width: 3em;
+  text-align: center; }
+  [class^="icon-"] i {
+    line-height: 2.5em; }
+  [class^="icon-"]:hover {
+    background-color: lightblue;
+    color: white; }
+
+.icon-circle {
+  border-radius: 50%; }
+
+.icon-rounded {
+  border-radius: 3px; }
+
+.icon-large {
+  font-size: 150%; }
+
+.icon-huge {
+  font-size: 250%; }
+
+/*# sourceMappingURL=app.css.map */
