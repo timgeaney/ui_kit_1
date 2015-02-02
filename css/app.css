@@ -746,4 +746,36 @@ form input[type="radio"] + label {
 .icon-huge {
   font-size: 250%; }
 
+[class^="alert-"] {
+  border: 1px solid;
+  border-bottom-width: 3px;
+  margin: 1.5em 0;
+  padding: 1.5em; }
+  [class^="alert-"] p {
+    margin-bottom: 0; }
+
+.alert-information {
+  border-color: #bddcee;
+  background-color: #fafcfe; }
+  .alert-information :first-child {
+    color: #439ccf; }
+
+.alert-error {
+  border-color: #f6a79f;
+  background-color: #fde7e5; }
+  .alert-error :first-child {
+    color: #e72915; }
+
+.alert-success {
+  border-color: #bedf91;
+  background-color: #e1f0cc; }
+  .alert-success :first-child {
+    color: #74a730; }
+
+.alert-warning {
+  border-color: #ffa76d;
+  background-color: #ffd5ba; }
+  .alert-warning :first-child {
+    color: #d35400; }
+
 /*# sourceMappingURL=app.css.map */
