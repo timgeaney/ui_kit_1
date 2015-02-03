@@ -1,0 +1,43 @@
+.cycle-slideshow {
+	position: relative;
+
+	.cycle-prev,
+	.cycle-next {
+		background-color: rgba(255, 255, 255, 0.5);
+
+		display: inline-block;
+		height: 4em;
+		margin-top: -2em; //perfectly center them casue their heights is 3em
+		position: absolute;
+		width: 4em;
+
+		top: 50%;
+		z-index: 1000;
+
+		text-align: center;
+		font-size: 2em;
+		line-height: 4em;
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.9);
+		}
+
+	}
+
+	.cycle-next {
+		right: 0;
+	}
+
+	.cycle-prev {
+		left:0;
+	}
+
+	.cycle-caption {
+		margin: $baseline 0;
+
+		text-align: center;
+	}
+
+
+}

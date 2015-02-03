@@ -930,4 +930,53 @@ form input[type="radio"] + label {
   .tab.active {
     display: block; }
 
+.accordion {
+  border: 1px solid #ccc; }
+
+.accordion-element-title {
+  border-bottom: 1px solid #ccc;
+  background-color: #ebeeef;
+  color: #4d4d4d;
+  display: block;
+  padding: 1.5em;
+  text-decoration: none; }
+  .accordion-element-title:hover, .accordion-element-title:active {
+    color: #fff;
+    background-color: #333; }
+  .accordian-element:last-child .accordion-element-title {
+    border-bottom: 0; }
+
+.accordion-element-content {
+  display: none;
+  padding: 1.5em; }
+  .accordion-element-content p:last-child {
+    margin-bottom: 0; }
+
+.cycle-slideshow {
+  position: relative; }
+  .cycle-slideshow .cycle-prev,
+  .cycle-slideshow .cycle-next {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    height: 4em;
+    margin-top: -2em;
+    position: absolute;
+    width: 4em;
+    top: 50%;
+    z-index: 1000;
+    text-align: center;
+    font-size: 2em;
+    line-height: 4em;
+    cursor: pointer; }
+    .cycle-slideshow .cycle-prev:hover,
+    .cycle-slideshow .cycle-next:hover {
+      background-color: rgba(255, 255, 255, 0.9); }
+  .cycle-slideshow .cycle-next {
+    right: 0; }
+  .cycle-slideshow .cycle-prev {
+    left: 0; }
+  .cycle-slideshow .cycle-caption {
+    margin: 1.5em 0;
+    text-align: center; }
+
 /*# sourceMappingURL=app.css.map */
