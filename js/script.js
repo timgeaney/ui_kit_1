@@ -16,4 +16,15 @@ $( function() {
 
 			$( ".rwd-menu" ).slideToggle();
 		} );
+
+
+	/**
+	 * Animations.
+	 */
+	$( "#demo-animations" ).find( ".demo-col" ).on( "click", function() {
+		var $this = $( this );
+
+		$this.addClass( "animated " + $this.attr( 'id' ) );
+	} );
+
 	} );
